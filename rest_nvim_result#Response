@@ -1,0 +1,17 @@
+### adding_new_note#13
+POST http://localhost:3001/api/notes/
+HTTP/1.1 500 Internal Server Error
+
+# @_RES
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: Cannot read properties of undefined (reading &#39;content&#39;)<br> &nbsp; &nbsp;at /home/toki/code/repos/fullstackopen/following-along/backend/index.js:31:13<br> &nbsp; &nbsp;at Layer.handleRequest (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/lib/layer.js:152:17)<br> &nbsp; &nbsp;at next (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/lib/route.js:157:13)<br> &nbsp; &nbsp;at Route.dispatch (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/lib/route.js:117:3)<br> &nbsp; &nbsp;at handle (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/index.js:435:11)<br> &nbsp; &nbsp;at Layer.handleRequest (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/lib/layer.js:152:17)<br> &nbsp; &nbsp;at /home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/index.js:295:15<br> &nbsp; &nbsp;at processParams (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/index.js:582:12)<br> &nbsp; &nbsp;at next (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/index.js:291:5)<br> &nbsp; &nbsp;at Function.handle (/home/toki/code/repos/fullstackopen/following-along/backend/node_modules/router/index.js:186:3)</pre>
+</body>
+</html>
+
+# @_END

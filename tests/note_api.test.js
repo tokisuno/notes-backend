@@ -99,7 +99,7 @@ describe('when there are initially some notes saved', () => {
 })
 
 describe('deletion of a note', () => {
-  test('succeeds with status 402 if id is valid', async () => {
+  test('succeeds with status 204 if id is valid', async () => {
 
     const notesAtStart = await helper.notesInDb();
     const noteToDelete = notesAtStart[0];
